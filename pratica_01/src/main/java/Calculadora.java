@@ -1,7 +1,13 @@
 public class Calculadora {
     
-    public static void main(String[] args) {}
+    
     public int multiplicar(int n1, int n2){
-        return n1*n2;
+        
+        int mult = Math.multiplyExact(n1, n2);
+        return mult;
+    }
+    public static void main(String[] args) {
+
+        
     }
 }
