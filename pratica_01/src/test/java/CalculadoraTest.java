@@ -8,7 +8,7 @@ public class CalculadoraTest {
         public void multiplicarTest(){
             Calculadora calc = new Calculadora();
             int resultado = calc.multiplicar(3,5);
-            assertEquals(18, resultado);
+            assertEquals(15, resultado);
         }
 
 
