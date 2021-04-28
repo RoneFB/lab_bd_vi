@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="CalculadoraTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-03-29T21:43:36" hostname="DESKTOP-B6UQRG8" time="0.027">
+  <properties/>
+  <testcase name="multiplicarTest()" classname="CalculadoraTest" time="0.027"/>
+  <system-out><![CDATA[474875151
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
