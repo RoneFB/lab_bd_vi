@@ -4,3 +4,4 @@ RA: 1460281813036
 ## Diretórios
 
 * pratica_01: Ferramentas de Construção e TDD - Multiplicação
+* pratica_02: TDD com análise de valores limites - Multiplicação
