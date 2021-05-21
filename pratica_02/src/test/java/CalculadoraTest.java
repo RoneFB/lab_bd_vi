@@ -9,13 +9,21 @@ public class CalculadoraTest {
   
         @Test
         public void multiplicarTest(){
-            /* MÃ©todo de teste, executa o multiplicar e compara o resultado esperado */
-        	/* 
-        	 * Intervalo -5 a +5
-        	 * 
-        	 * Resultando o intervalo temos duas partições de equivalência, 
-        	 * 1 - onde o produto de dois numeros inteiros negativos OU os dois inteiros positivos -> saida de um inteiro positivo
-        	 * 2 - produto de dois inteiros, um negativo e outro positivo -> saida de um inteiro positivo  
+            /* MÃ©todo de teste, executa o multiplicar e compara o resultado esperado 
+             
+        	*	Resultando o intervalo temos três partições de equivalência: 
+        	*	1. onde o produto de dois numeros inteiros negativos OU os dois inteiros positivos -> saida de um inteiro positivo: 
+        	*	|Ex: |2 * 2 = 4 | -2 * -2 = 4 |
+        	*	|[1, 2, 3 ...]|
+
+        	*	2. produto de dois inteiros, um negativo e outro positivo -> saida de um inteiro negativo 
+        	*	|Ex: | -2 * 2 = -4 |
+        	*	|[-1,-2,-3 ...]|
+
+        	*	3. Onde um dos numeros é zero o resultado esperado tem que ser zero
+        	*	|Ex: |3 * 0 = 0|
+        	*	|[0]|
+        		
         	 * */
             Calculadora calc = new Calculadora();
            
@@ -31,7 +39,7 @@ public class CalculadoraTest {
             int resultado4 = calc.multiplicar(0,2);
             assertEquals(0, resultado4);
             
-            assertTrue(calc.multiplicar(-2, 0) >= 0);
+            
         }
 
 

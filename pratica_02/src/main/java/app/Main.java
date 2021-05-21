@@ -7,7 +7,7 @@ public class Main {
     public static void main(String [] args) {
         /* Instancia da classe Calculadora, a partir dai podemos fazer a chamada do método multiplicar */
         Calculadora calc = new Calculadora();
-        int resultado = calc.multiplicar(Integer.MAX_VALUE+1,2);
+        int resultado = calc.multiplicar(4,2);
         System.out.print(resultado);
     }
     
