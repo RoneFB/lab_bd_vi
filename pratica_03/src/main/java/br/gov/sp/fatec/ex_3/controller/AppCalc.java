@@ -15,7 +15,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 
 import br.gov.sp.fatec.ex_3.model.Calculadora;
 @WebServlet(urlPatterns= {"/multi"})
-public class PrimeiroServlet extends HttpServlet{
+public class AppCalc extends HttpServlet{
 		
 	@Override
 	public void doGet(HttpServletRequest req, HttpServletResponse res) throws UnsupportedEncodingException {
@@ -41,7 +41,7 @@ public class PrimeiroServlet extends HttpServlet{
 			
 			resp.setContentType("application/json");
 		    resp.setCharacterEncoding("UTF-8");
-		    resp.setStatus(201);
+		    resp.setStatus(200);
 		        
 		    PrintWriter out = resp.getWriter();
 		    out.print(mult);

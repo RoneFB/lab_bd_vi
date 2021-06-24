@@ -16,7 +16,7 @@ public class Calculadora {
 	public void setNumero2(float numero2) {
 		this.numero2 = numero2;
 	}
-	
+	/*Método que multiplica os numeros da Classe Calculadora*/
 	public float multiplicar() {
 		return this.getNumero1()*this.getNumero2();
 	}
